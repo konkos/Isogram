@@ -23,5 +23,7 @@ class MainTest {
 
         assertTrue(Main.isIsogram(" disgraceful"));
         assertTrue(Main.isIsogram(" disgraceful "));
+
+        assertFalse(Main.isIsogram("This is a sentence"));
     }
 }
