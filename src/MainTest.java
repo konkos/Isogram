@@ -20,5 +20,8 @@ class MainTest {
 
         assertFalse(Main.isIsogram("Exvakbondsjuryzwijgplicht"));//has two j's
         assertFalse(Main.isIsogram("Isograms"));
+
+        assertTrue(Main.isIsogram(" disgraceful"));
+        assertTrue(Main.isIsogram(" disgraceful "));
     }
 }
